@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MYTOTOOL </title>
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <h1> MYTOTOOL </h1>
+        <div class="input section">
+            <input type="text" id="todoInput" placeholder="Ajouter votre todo..." />
+            <button id="submitBtn" class="btn">+</button>
+        </div>
+
+        <div id="todos" class="todos section"></div>
+
+        <div class="bottom section">
+            <p>Vous avez <span id="todosNb">0</span> todo en cours.</p>
+            <button id="deleteAll" class="btn">Tout supprimer</button>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!-- icon de ionicons -->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> <!-- icon de ionicons -->   
+</body>
+
+</html>
